@@ -16,8 +16,8 @@ final WheelDialogFragment wheelViewDialogFragment = WheelDialogFragment
 
            @Override
            public void onClickRight(String value) {
-               wheelViewDialogFragment.dismiss();                        Log.i("", value);
-                    Toast.makeText(getApplicationContext(), value, Toast.LENGTH_SHORT).show();
+               wheelViewDialogFragment.dismiss();                       
+               Toast.makeText(getApplicationContext(), value, Toast.LENGTH_SHORT).show();
            }
 
            @Override
