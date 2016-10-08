@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WheelDialogFragment</string>
+
+
+    <array name="main_home_menu">
+        <item >费用查缴</item>
+        <item >物业报修</item>
+        <item >物业投诉</item>
+        <item >物业建议</item>
+        <item >管理授权</item>
+        <item >通知公告</item>
+        <item >访客管理</item>
+        <item >开锁</item>
+    </array>
+
+    <string name="app_cancel">取消</string>
+    <string name="app_sure">确定</string>
+</resources>

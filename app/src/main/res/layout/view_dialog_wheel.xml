@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_wheel_dialog_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:minWidth="48dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="16sp"
+            android:text="取消"
+            android:textColor="@color/default_text_color_normal" />
+
+        <TextView
+            android:id="@+id/tv_wheel_dialog_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:textSize="16sp"
+            android:text="确定"
+            android:textColor="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+    <com.github.phoenix.widget.WheelView
+        android:id="@+id/WheelView_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/default_window_bg"
+        android:contentDescription="test_number_picker_view"
+        app:npv_ItemPaddingHorizental="5dp"
+        app:npv_ItemPaddingVertical="5dp"
+        app:npv_ShowCount="5"
+        app:npv_TextSizeNormal="16sp"
+        app:npv_TextSizeSelected="20sp"
+        app:npv_WrapSelectorWheel="true"/>
+
+</LinearLayout>
